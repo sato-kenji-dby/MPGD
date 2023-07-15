@@ -1,0 +1,13 @@
+{
+	"type" : "femnist",
+	"model_name": "googlenet",
+	"batch_size": 32,
+	"lambda": 0.5,
+	"no_models": 4,
+    "self_data": 10000,
+    "global_epochs": 3,
+    "k": 2,
+    "lr": 1e-5,
+    "momentum": 0.9,
+    "local_epochs": 1
+}
